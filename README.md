@@ -1,8 +1,51 @@
 # Cerno Docs
 
+<div align="center">
+
+![Cerno Docs Banner](https://img.shields.io/badge/Cerno-Docs-blue?style=for-the-badge)
+
+**A high-performance RAG system for intelligent document Q&A**
+
+[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-green.svg)](https://fastapi.tiangolo.com/)
+[![Next.js](https://img.shields.io/badge/Next.js-14+-black.svg)](https://nextjs.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+
+[Features](#-key-features) • [Quick Start](#-quick-start) • [Documentation](#-documentation) • [Contributing](#-contributing)
+
+</div>
+
+---
+
+## 🎯 Overview
+
 A high-performance Retrieval-Augmented Generation (RAG) system for intelligent document processing and question-answering. Upload documents in multiple formats and ask questions to get precise, citation-backed answers using state-of-the-art Language Models and hybrid retrieval strategies.
 
-This README provides an overview of the project. For a comprehensive technical deep-dive, refer to [Explanation.md](./Explanation.md). To quickly start the app, run `docker compose build` and `docker compose up --build -d`
+**Quick Start**: `docker compose up --build -d` → Visit http://localhost:3000
+
+📖 **Full Documentation**: See [Explanation.md](./Explanation.md) for technical deep-dive
+
+## 🚀 Quick Start
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/divagr18/googlerag.git
+cd googlerag
+
+# 2. Set up environment
+cp .env.sample .env
+# Add your GOOGLE_API_KEY to .env
+
+# 3. Run with Docker (recommended)
+docker compose up --build -d
+
+# 4. Access the app
+# Frontend: http://localhost:3000
+# Backend API: http://localhost:8000/docs
+```
+
+That's it! Upload a document and start asking questions. 🎉
 
 ## Table of Contents
 
@@ -391,3 +434,43 @@ This roadmap outlines potential directions for evolving the system from a powerf
 -   **Proactive Insights & Anomaly Detection**: Create a monitoring agent that periodically scans new documents and proactively alerts users to significant changes, risks, or opportunities—for example, "A new termination clause was added to the employee handbook that differs from the previous version."
 -   **Multi-Document Comparative Analysis**: Enable queries that span multiple documents, such as "Compare the liability clauses in Contract A and Contract B and highlight the key differences."
 -   **Voice-to-Query & Spoken Answers**: Integrate Speech-to-Text (STT) and Text-to-Speech (TTS) services to allow users to ask questions verbally and receive spoken responses, enabling hands-free interaction.
+
+## 🤝 Contributing
+
+We welcome contributions from the community! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details on:
+
+- How to report bugs
+- How to suggest features
+- Development setup and workflow
+- Code standards and best practices
+- Pull request process
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🔒 Security
+
+For security concerns, please review our [Security Policy](SECURITY.md) and report vulnerabilities responsibly.
+
+## 🙏 Acknowledgments
+
+- Built with [FastAPI](https://fastapi.tiangolo.com/), [Next.js](https://nextjs.org/), and [Google Gemini](https://deepmind.google/technologies/gemini/)
+- Powered by [SentenceTransformers](https://www.sbert.net/) and [FAISS](https://github.com/facebookresearch/faiss)
+- Inspired by the open-source AI community
+
+## 📬 Support
+
+- **Issues**: [GitHub Issues](https://github.com/divagr18/googlerag/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/divagr18/googlerag/discussions)
+- **Documentation**: [Explanation.md](./Explanation.md) | [Installation Guide](./INSTALLATION.md)
+
+---
+
+<div align="center">
+
+**⭐ Star this repository if you find it helpful!**
+
+Made with ❤️ by the Cerno Docs community
+
+</div>
