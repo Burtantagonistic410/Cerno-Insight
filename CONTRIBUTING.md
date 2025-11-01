@@ -5,7 +5,7 @@ Thank you for your interest in contributing to Cerno Docs! We welcome contributi
 ## 🌟 How to Contribute
 
 ### Reporting Bugs
-- Check if the bug has already been reported in [Issues](https://github.com/divagr18/googlerag/issues)
+- Check if the bug has already been reported in [Issues](https://github.com/cerno-ai/cerno-docs/issues)
 - If not, create a new issue with:
   - Clear title and description
   - Steps to reproduce

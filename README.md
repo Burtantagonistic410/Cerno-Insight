@@ -30,8 +30,8 @@ A high-performance Retrieval-Augmented Generation (RAG) system for intelligent d
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/divagr18/googlerag.git
-cd googlerag
+git clone https://github.com/cerno-ai/cerno-docs.git
+cd cerno-docs
 
 # 2. Set up environment
 cp .env.sample .env
@@ -461,8 +461,8 @@ For security concerns, please review our [Security Policy](SECURITY.md) and repo
 
 ## 📬 Support
 
-- **Issues**: [GitHub Issues](https://github.com/divagr18/googlerag/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/divagr18/googlerag/discussions)
+- **Issues**: [GitHub Issues](https://github.com/cerno-ai/cerno-docs/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/cerno-ai/cerno-docs/discussions)
 - **Documentation**: [Explanation.md](./Explanation.md) | [Installation Guide](./INSTALLATION.md)
 
 ---
